@@ -1,16 +1,32 @@
 ### Hi there 👋
 
-<!--
-**Tmajor97/Tmajor97** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+ fact: ...
 -->
+import { Solomon, Bio } from "portfolio"
+
+class AboutMe extends Solomon.Bio {
+  const getDailyKnowledge = () => {
+    return (
+		[
+		    id: 1, name: 'HTML',
+		    id: 2, name: 'CSS',
+		    id: 3, name: 'Javascript',
+		    id: 4, name: 'REACT'
+		 ]
+	   )
+     }
+
+    render (
+      return (
+	 <div>
+	    {getDailyKnowledge().map(item => {
+		return(
+		  {item.id} {item.name}
+		)
+	    })}
+	 </div>
+	)
+    )
+}
+
+export default AboutMe
