@@ -1,7 +1,6 @@
 ### Hi there 👋
 
- fact: ...
--->
+
 import { Solomon, Bio } from "portfolio"
 
 class AboutMe extends Solomon.Bio {
