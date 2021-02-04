@@ -1,6 +1,4 @@
-### Hi there 👋
-
-
+```javascript
 import { Solomon, Bio } from "portfolio"
 
 class AboutMe extends Solomon.Bio {
@@ -29,3 +27,8 @@ class AboutMe extends Solomon.Bio {
 }
 
 export default AboutMe
+```
+
+### Hi there 👋, I'm Tobi Solomon
+
+[![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
